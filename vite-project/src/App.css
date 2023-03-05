@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: o;
+}
+.searchbar{
+    outline: none;
+    border: none;
+    width: 200px;
+    font-size: 17px;
+}
+.category-btn{
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease;
+    gap: 5px;
+}
+.react-player {
+  height: 77vh !important;
+  width: 100% !important;
+}
+.category-btn:hover{
+    background-color: red;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.cardcont{
+    text-decoration: none;
+    display: flex;
+    width: 300px;
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .scroll-horizontal {
+    overflow: auto !important;
+  }
+
+  .react-player {
+    height: 45vh !important;
+  }
+  .search-bar{
+    width:200px;
+  }
+}
